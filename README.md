@@ -1,7 +1,7 @@
 DementiaCare Web App Link :(https://643e818ec9c2244cf3230842--magical-hummingbird-ae5667.netlify.app/).
 Figma Design File link : (https://www.figma.com/file/zstFWbPMx8GPzlOuX3ZqX1/DementiCare---Website?type=design&node-id=0%3A1&t=RMqIsXMffvHhaBsF-1)
 
-# StartUpBuilder-An-Intuitive-Website-Creation-Platform
+# DementiaCare-A-Neurological-Assistance-Web-Application
 StartUp Builder is a web application offering a user-friendly platform for creating websites without coding, utilizing simple drag-and-drop functionality. It enables users to seamlessly integrate AdSense for website monetization and provides avenues to connect with potential investors. Build your online presence effortlessly                                                                                            
 
 ### View Application 
