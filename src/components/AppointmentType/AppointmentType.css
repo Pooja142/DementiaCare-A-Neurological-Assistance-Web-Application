@@ -1,0 +1,175 @@
+.appointmentType{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.appointmentType h5{
+    font-weight: 700;
+    background: -webkit-linear-gradient(45deg, #19D3AE, #0FCFEC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.appointmentType p{
+    color: black !important;
+    font-weight: 700;
+}
+.appointmentType small{
+    color: gray;
+}
+.appointmentType button{
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    background-image: linear-gradient(to right, #19D3AE, #0FCFEC);
+    color: white;
+    font-weight: 700;
+    border-radius: 2px;
+}
+.popupDetails{
+    margin: auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    width: 700px;
+    position: relative;
+}
+.popupDetails h5{
+    margin-bottom: 30px;
+}
+.popupDetails .takeInput{
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+.popupDetails .submitBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 55px;
+}
+.popupDetails .submitBtn > *{
+    padding: 5px 30px;
+    background-image: linear-gradient(to right, #19D3AE, #0FCFEC);
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+    .appointmentType h5{
+        font-size: 18px;
+        font-weight: 600px;
+    }
+    .appointmentType button{
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
+
+@media only screen and (max-width: 771px) {
+    .popupDetails{
+        width: 400px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .popupDetails .takeInput{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 441px) {
+    .popupDetails{
+        width: 300px;
+        margin: 30px;
+    }
+    .popupDetails .takeInput{
+        width: 200px;
+    }
+}
+
+.popupDetails {
+    background: #f5f5f5;
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .appointmentForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .submitBtn {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  input[type="submit"] {
+    background-color: #19D3AE;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #19D3AE;
+  }
+  
+  input[type="submit"]:active {
+    transform: translateY(1px);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .popupDetails {
+      width: 100%;
+      padding: 20px;
+    }
+  
+    input[type="submit"] {
+      width: 100%;
+    }
+  }
+  button {
+    background-color: #19D3AE;
+
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #19D3AE;
+  }
+    
